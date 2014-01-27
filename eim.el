@@ -910,7 +910,7 @@ to the position of point in the selected window."
         (params tooltip-frame-parameters)
         ;; seem the top position should add 65 pixel to make
         ;; the text display under the baseline of cursor
-        (top-adjust 65)
+        (top-adjust 30)
         (frame-height (frame-pixel-height))
         (frame-width (frame-pixel-width))
         (lines (split-string text "\n"))
